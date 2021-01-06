@@ -151,6 +151,7 @@ li .ques1 {
     margin-top: 20px
 }
 li .o {
+    line-height: 2.3rem;
   font-size: large;
   margin-left: 80px;
   color: #333;
@@ -215,7 +216,7 @@ li .o {
     .nav li,
     label .o {
         padding: 0;
-        line-height: 2.2rem;
+        line-height: 2.1rem;
     }
     
 }
