@@ -172,6 +172,15 @@ li .o {
   font-size: large;
   color: #6d120b;
 }
+ li .ans{
+     margin-top: 10px;
+     font-weight: 400;
+    color: darkgreen;
+     font-size: 19px;
+     line-height: 1.5rem;
+       margin-left: 60px;
+     margin-bottom: 40px;
+}
 
 @media (max-width: 800px) {
   li .ques1 {
@@ -182,7 +191,11 @@ li .o {
   }
   li .o {
     margin-left: 5px;
+      
   }
+    li .ans{
+        margin-left: 0;
+    }
 }
 @media (max-width: 720px) {
   li .ques1 {
@@ -191,6 +204,9 @@ li .o {
     padding: 0;
     margin-right: 10;
   }
+    li .ans{
+        margin-left: 0;
+    }
   li .o {
     margin-left: 5px;
   }
@@ -218,5 +234,7 @@ li .o {
         padding: 0;
         line-height: 2.1rem;
     }
-    
+     li .ans{
+       margin-left: 0px;
+}
 }
