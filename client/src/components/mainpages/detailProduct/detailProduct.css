@@ -40,29 +40,8 @@
   letter-spacing: 2px;
 }
 
-.mcqs .lesson {
-  margin-right: 30px;
-  margin-top: 120px;
-  margin-bottom: 100px;
-  text-align: center;
-  color: rgb(22, 11, 22);
-  background-color: rgb(228, 238, 245);
-  padding: 5px;
-  width: 520px;
-  border-style: outset;
-  border-color: white;
-}
-.mcqs .mcq_ques {
-  font-size: 20px;
-  padding-right: 0px;
-  margin-top: 25px;
-  color: rgb(53, 7, 7);
-}
-.mcqs .mcq_opt {
-  font-size: 17px;
-  padding-top: 10px;
-  padding-left: 40px;
-}
+
+
 .related {
   color: rgb(49, 8, 88);
   padding-top: 50px;
@@ -169,6 +148,7 @@ li .ques1 {
   margin-left: 50px;
   color: rgb(10, 30, 77);
   line-height: 1.9rem;
+    margin-top: 20px
 }
 li .o {
   font-size: large;
@@ -219,14 +199,23 @@ li .o {
     font-size: medium;
     padding: 0;
     margin-bottom: 50px;
+      
   }
   li .ques1 {
     width: 400px;
-    margin-left: 0;
-    padding: 0;
-    margin-right: 0;
+
+    padding: -50px;
+    
   }
   li .o {
     margin-left: 5px;
-  }
+    padding: 0;
+      }
+    .nav ul,
+    .nav li,
+    label .o {
+        padding: 0;
+        line-height: 2.2rem;
+    }
+    
 }
