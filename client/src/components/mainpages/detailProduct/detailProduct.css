@@ -147,14 +147,14 @@ li .ques1 {
   font-weight: 400;
   margin-left: 50px;
   color: rgb(10, 30, 77);
-  line-height: 1.9rem;
+  line-height: 1.7rem;
     margin-top: 20px
 }
 li .o {
+    color: #333;
     line-height: 2.3rem;
   font-size: large;
   margin-left: 80px;
-  color: #333;
   font-weight: 300;
 }
 .lesson {
@@ -219,22 +219,31 @@ li .o {
       
   }
   li .ques1 {
+      line-height: 1.0rem;
+      font-size: 17px;
     width: 400px;
-
-    padding: -50px;
+    
     
   }
   li .o {
-    margin-left: 5px;
+      color: #333;
+      font-size: 15px;
+    margin-left: 18px;
+      margin-right: 10px;
     padding: 0;
       }
     .nav ul,
     .nav li,
     label .o {
+        
         padding: 0;
-        line-height: 2.1rem;
+        line-height: 2.0rem;
     }
+    
+   
      li .ans{
        margin-left: 0px;
+         font-size: 15px;
+         line-height: 1.2rem;
 }
 }
